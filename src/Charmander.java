@@ -3,6 +3,9 @@ import interfaces.IFuego;
 
 public class Charmander extends Pokemon implements IFuego {
 
+    public Charmander() {
+    }
+
     @Override
     protected void atacarPlacaje() {
         System.out.println("Soy Charmander y estoy atacando con placaje");

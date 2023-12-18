@@ -3,6 +3,9 @@ import interfaces.IPlanta;
 
 public class Bulbasaur extends Pokemon implements IPlanta {
 
+    public Bulbasaur() {
+    }
+
     @Override
     protected void atacarPlacaje() {
         System.out.println("Soy Bulbasaur y estoy atacando con placaje");

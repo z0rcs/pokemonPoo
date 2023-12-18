@@ -3,6 +3,9 @@ import interfaces.IElectrico;
 
 public class Pikachu extends Pokemon implements IElectrico {
 
+    public Pikachu() {
+    }
+
     @Override
     protected void atacarPlacaje() {
         System.out.println("Soy Pikachu y estoy atacando con placaje");

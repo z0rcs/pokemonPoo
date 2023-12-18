@@ -3,6 +3,9 @@ import interfaces.IAgua;
 
 public class Squirtle extends Pokemon implements IAgua {
 
+    public Squirtle() {
+    }
+
     @Override
     protected void atacarPlacaje() {
         System.out.println("Soy Squirtle y estoy atacando con placaje");
